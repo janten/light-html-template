@@ -1,0 +1,83 @@
+@import url(http://fonts.googleapis.com/css?family=Arvo:400&subset=latin,latin-ext);
+@import url(http://fonts.googleapis.com/css?family=Noticia+Text:400,400italic,700&subset=latin,latin-ext);
+@import url(http://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700&subset=latin,latin-ext);
+
+a {
+  color: #9f3c3c;
+  text-decoration: none;
+}
+
+a:hover,
+a:focus {
+  text-decoration: underline;
+}
+
+a img {
+	border: 0;
+}
+
+article {
+  background: #fff;
+  display: block;
+  margin: 4em auto;
+  padding: 0;
+  position: relative;
+  text-align: left;
+  width: 800px;
+}
+
+article header {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0 5em;
+  position: absolute;
+  top: -1.45em;
+  width: 100%;
+}
+
+article header h1,
+article header time {
+  display: inline;
+  font-family: Arvo, serif;
+  font-size: x-large;
+  font-weight: 400;
+}
+
+article header time {
+  color: #bbb;
+  float: right;
+}
+
+body {
+  background: #eee;
+  font-family: "Noticia Text", Georgia, serif;
+  padding: 0;
+  text-align: center;
+  text-rendering: optimizeLegibility;
+}
+
+code {
+  background-color: #eee;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  font-family: "Ubuntu Mono", monospace;
+  padding: 0 .2em .5px;
+}
+
+img {
+  margin: 0;
+}
+
+p {
+  -moz-hyphens: auto;
+  -webkit-hyphens: auto;
+  font-size: 13pt;
+  hyphens: auto;
+  line-height: 150%;
+  padding: 3em 5em 0;
+}
+
+p:last-child {
+  padding-bottom: 3em;
+}
