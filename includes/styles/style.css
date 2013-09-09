@@ -24,7 +24,7 @@ a img {
 article {
   background: #fff;
   display: block;
-  margin: 4em auto;
+  margin: 8em auto;
   padding: 0;
   position: relative;
   text-align: left;
@@ -68,6 +68,10 @@ code {
   border-radius: 3px;
   font-family: "Ubuntu Mono", monospace;
   padding: 0 .2em .5px;
+}
+
+footer {
+	margin-top: -3em;
 }
 
 footer a.icon {
@@ -119,6 +123,10 @@ footer a[href*="twitter"]:hover {
 footer aside {
 	display: block;
 	margin-bottom: 5em;
+}
+
+footer img.photo {
+	display: none;
 }
 
 img {
