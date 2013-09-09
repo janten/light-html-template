@@ -1,27 +1,31 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Testseite</title>
-		<link rel="stylesheet" href="style.css" title="Main Stylesheet" type="text/css" media="screen" charset="utf-8">
-		<style type="text/css" media="screen">
-		</style>
+    <title>Jan-Gerd Tenberge</title>
+    <meta charset="UTF-8">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <link rel="stylesheet" href="includes/styles/style.css" title="Main Stylesheet" type="text/css" media="screen">
+    <link rel="shortcut icon" href="includes/images/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" href="includes/images/favicon-152.png">
+    <link rel="author" href="https://plus.google.com/108733949875327525510">
+    <link rel="author" href="https://facebook.com/janten">
 	</head>
 	<body>
-			<article>
+		<article>
 			<header>
-				<time>09.09.2013</time>
+				<time datetime="2013-09-09">09.09.2013</time>
 				<h1>Schreiben mit Latex</h1>
 			</header>
-			<p>Wichtig ist es, auf stets leserlichen <a href="http: //example.com">Code</a> zu achten. Dabei kann eine Syntax-Hervorherbung und ein guter Editor massiv helfen. Ich persönlich setze auf TextMate 2, und nutze gerne die Funktion <code>void* malloc(int bytes)</code>, es gibt aber eine Unmenge ähnlicher Editoren, die vergleichbare Ergebnisse erzielen.</p>
+			<p>Wichtig ist es, auf stets leserlichen <a href="http://example.com">Code</a> zu achten. Dabei kann eine Syntax-Hervorherbung und ein guter Editor massiv helfen. Ich persönlich setze auf TextMate 2, und nutze gerne die Funktion <code>void* malloc(int bytes)</code>, es gibt aber eine Unmenge ähnlicher Editoren, die vergleichbare Ergebnisse erzielen.</p>
 		</article>
 		
 		<article>
 			<header>
-				<time>21.05.2013</time>
+				<time datetime="2013-05-21">21.05.2013</time>
 				<h1>Syrische Braunbären</h1>
 			</header>
 			<a href="http://www.flickr.com/photos/janten/8777322350/">
-				<img src="http://farm6.staticflickr.com/5469/8777322350_f0bf8df494_c.jpg" width="800" height="534">
+				<img src="http://farm6.staticflickr.com/5469/8777322350_f0bf8df494_c.jpg" data-retinasrc="http://farm6.staticflickr.com/5469/8777322350_ee20a2c3f1_h.jpg" alt="Zoobild" width="800" height="534">
 			</a>
 <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
 
@@ -29,5 +33,46 @@
 
 <p>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
 		</article>
+		
+	<footer class="vcard">
+		<aside>
+		  <a href="http://facebook.com/janten" class="icon" rel="me" title="Facebook">f</a>
+	    <a href="http://twitter.com/janten" class="icon" rel="me" title="Twitter">l</a>
+	    <a href="http://last.fm/user/janten" class="icon" rel="me" title="Last.fm">6</a>
+	    <a href="http://flickr.com/photos/janten" class="icon" rel="me" title="Flickr">n</a>
+	    <a href="https://github.com/janten" class="icon" rel="me" title="GitHub">g</a>
+		</aside>
+	   
+	  <a class="url fn" href="http://jan-gerd.com">Jan-Gerd Tenberge</a> • 
+    <div class="adr" style="display: inline;">
+    	<span class="street-address">Borkenfeld 252</span> • 
+      <span class="postal-code">48161</span> <span class="locality">Münster</span> • 
+    </div>
+    <a class="email" href="mailto:janten@gmail.com">janten@gmail.com</a>
+	</footer>
+	
+  <script type="text/javascript">
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'UA-17304331-1']);
+		_gaq.push(['_trackPageview']);
+  
+  	(function() {
+    	var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    	ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    	var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  	})();
+	</script>
+		
+  <script>
+	  var images = document.getElementsByTagName("img");
+	  if (window.devicePixelRatio > 1.5) {
+	  	for (var i=0; i<images.length; i++) {
+	    	if (images[i].getAttribute('data-retinasrc')) {
+	      	images[i].src = images[i].getAttribute('data-retinasrc');
+	      }
+			}
+	  }
+  </script>
+	
 	</body>
 </html>

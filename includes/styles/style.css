@@ -2,6 +2,11 @@
 @import url(http://fonts.googleapis.com/css?family=Noticia+Text:400,400italic,700&subset=latin,latin-ext);
 @import url(http://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700&subset=latin,latin-ext);
 
+@font-face {
+    font-family: 'socialico';
+    src: url('includes/fonts/socialico-webfont.ttf') format('truetype');
+}
+
 a {
   color: #9f3c3c;
   text-decoration: none;
@@ -63,6 +68,57 @@ code {
   border-radius: 3px;
   font-family: "Ubuntu Mono", monospace;
   padding: 0 .2em .5px;
+}
+
+footer a.icon {
+	font-family: "socialico";
+	font-size: 42pt;
+	position: relative;
+	top: .5em;
+	color: #bbb;
+	transition: all 0.2s;
+}
+
+footer a {
+	color: black;
+}
+
+footer a.icon:hover,
+footer a.icon:focus {
+	text-decoration: none;
+}
+
+footer a[href*="amazon"]:hover {
+	color: rgb(253, 161, 49);
+}
+
+footer a[href*="facebook"]:hover {
+	color: rgb(58, 89, 152);
+}
+
+footer a[href*="flickr.com"]:hover {
+	color: rgb(251, 32, 139);
+}
+
+footer a[href*="github"]:hover {
+	color: rgb(0, 0, 0);
+}
+
+footer a[href*="last.fm"]:hover {
+	color: rgb(219, 18, 23);
+}
+
+footer a[href*="plus.google"]:hover {
+	color: rgb(208, 69, 48);
+}
+
+footer a[href*="twitter"]:hover {
+	color: rgb(30, 174, 234);
+}
+
+footer aside {
+	display: block;
+	margin-bottom: 5em;
 }
 
 img {
