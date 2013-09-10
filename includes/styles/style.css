@@ -17,12 +17,6 @@ a:focus {
   text-decoration: underline;
 }
 
-a img {
-	border: 0;
-	margin: 0;
-	padding: 0;
-}
-
 article {
   background: #fff;
   display: block;
@@ -132,7 +126,10 @@ footer img.photo {
 }
 
 img {
-  margin: 0;
+	border: 0;
+	display: block;
+	margin: 0;
+	padding: 0;
 }
 
 p {
