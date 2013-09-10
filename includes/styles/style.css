@@ -139,12 +139,11 @@ p {
   hyphens: auto;
   line-height: 150%;
 	margin: 0;
-  padding: 3em 5em 0em 5em;
+  padding: 3em 5em 3em 5em;
 }
 
-
 p + p {
-  padding: 1em 5em 0em 5em;
+	margin-top: -5em;
 }
 
 p:last-child {
