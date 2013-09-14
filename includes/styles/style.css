@@ -2,6 +2,8 @@
 @import url(http://fonts.googleapis.com/css?family=Noticia+Text:400,400italic,700&subset=latin,latin-ext);
 @import url(http://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700&subset=latin,latin-ext);
 
+@import url(../scripts/highlight/styles/zenburn.css);
+
 @font-face {
     font-family: 'socialico';
     src: url('../fonts/socialico-webfont.ttf') format('truetype');
@@ -56,14 +58,6 @@ body {
   padding: 0;
   text-align: center;
   text-rendering: optimizeLegibility;
-}
-
-code {
-  background-color: #eee;
-  border: 1px solid #ddd;
-  border-radius: 3px;
-  font-family: "Ubuntu Mono", monospace;
-  padding: 0 .2em .5px;
 }
 
 footer {
@@ -148,4 +142,14 @@ p + p {
 
 p:last-child {
   padding-bottom: 3em;
+}
+
+p code {
+  background-color: #eee;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+}
+
+pre code {
+	padding-left: 3em;
 }
